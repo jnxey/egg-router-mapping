@@ -1,6 +1,6 @@
 # egg-router-mapping
 
-Base view plugin for egg
+The plugin is based on egg.js
 
 **This plugin is used for router settings.**
 
