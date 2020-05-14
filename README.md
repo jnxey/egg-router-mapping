@@ -72,12 +72,12 @@ import { RouterController, RouterGet, ... } from 'egg-router-mapping';
 | RouterPatch: Decorator|方法装饰器| | | |
 | RouterOptions: Decorator|方法装饰器| | | |
 | RouterHead: Decorator|方法装饰器| | | |
-| RouterControllerMapping: Decorator|类装饰器|name: string| | yes |
-| RouterAllMapping: Decorator|方法装饰器|name: string| | yes |
-| RouterGetMapping: Decorator|方法装饰器|name: string| | yes |
-| RouterPostMapping: Decorator|方法装饰器|name: string| | yes |
-| RouterPutMapping: Decorator|方法装饰器|name: string| | yes |
-| RouterDeleteMapping: Decorator|方法装饰器|name: string| | yes |
-| RouterOptionsMapping: Decorator|方法装饰器|name: string| | yes |
-| RouterHeadMapping: Decorator|方法装饰器|name: string| | yes |
+| RouterControllerMapping: Decorator|类装饰器|name: string| | Yes |
+| RouterAllMapping: Decorator|方法装饰器|name: string| | Yes |
+| RouterGetMapping: Decorator|方法装饰器|name: string| | Yes |
+| RouterPostMapping: Decorator|方法装饰器|name: string| | Yes |
+| RouterPutMapping: Decorator|方法装饰器|name: string| | Yes |
+| RouterDeleteMapping: Decorator|方法装饰器|name: string| | Yes |
+| RouterOptionsMapping: Decorator|方法装饰器|name: string| | Yes |
+| RouterHeadMapping: Decorator|方法装饰器|name: string| | Yes |
 
