@@ -1,7 +1,5 @@
 # egg-router-mapping
 
-The plugin is based on egg.js
-
 **This plugin is used for router settings.**
 
 ## Installation
