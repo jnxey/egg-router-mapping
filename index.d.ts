@@ -1,21 +1,21 @@
 declare module 'egg-router-mapping' {
+  interface Params {
+    name?: string;
+    tips?: string;
+    accept?: any;
+    returns?: any;
+    middleware?: any;
+  }
+  export const routerJSON: any[];
   export const routerMapping: Function;
   export const RouterController: Function;
-  export const RouterAll: Function;
-  export const RouterGet: Function;
-  export const RouterPost: Function;
-  export const RouterPut: Function;
-  export const RouterDelete: Function;
-  export const RouterPatch: Function;
-  export const RouterOptions: Function;
-  export const RouterHead: Function;
-  export function RouterControllerMapping(name: string): Function;
-  export function RouterAllMapping(name: string): Function;
-  export function RouterGetMapping(name: string): Function;
-  export function RouterPostMapping(name: string): Function;
-  export function RouterPutMapping(name: string): Function;
-  export function RouterDeleteMapping(name: string): Function;
-  export function RouterPatchMapping(name: string): Function;
-  export function RouterOptionsMapping(name: string): Function;
-  export function RouterHeadMapping(name: string): Function;
+  export function RouterController(options: Params): Function;
+  export function RouterAll(options: Params): Function;
+  export function RouterGet(options: Params): Function;
+  export function RouterPost(options: Params): Function;
+  export function RouterPut(options: Params): Function;
+  export function RouterDelete(options: Params): Function;
+  export function RouterPatch(options: Params): Function;
+  export function RouterOptions(options: Params): Function;
+  export function RouterHead(options: Params): Function;
 }
